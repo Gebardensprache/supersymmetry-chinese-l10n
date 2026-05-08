@@ -16,7 +16,7 @@ tile.alternator_coil.copper.name=铜制交流线圈
 tile.turbine_rotor.steel.name=钢制涡轮方块
 tile.turbine_rotor.low_pressure.name=低压涡轮方块
 tile.turbine_rotor.high_pressure.name=高压涡轮方块
-tile.turbine_rotor.combustion.name=Combustion Turbine Block
+tile.turbine_rotor.combustion.name=燃烧涡轮方块
 
 tile.drill_head.steel.name=钢制钻头
 
@@ -32,16 +32,16 @@ tile.rocket_assembler_casing.reinforced_foundation.name=强化地基方块
 tile.rocket_assembler_casing.foundation.name=火箭装配站地基方块
 tile.rocket_assembler_casing.rails.name=火箭装配站导轨
 tile.rocket_assembler_casing.structural_frame.name=火箭装配站结构框架
-tile.susy_multiblock_casing.euv_safe_casing.name=Extreme-Ultraviolet-Safe Lithographer Casing
-tile.susy_multiblock_casing.tabular_alumina_refractory.name=Tabular Alumina Refractory Lining
+tile.susy_multiblock_casing.euv_safe_casing.name=抗极端紫外线光刻外壳
+tile.susy_multiblock_casing.tabular_alumina_refractory.name=板状氧化铝耐火料内衬
 
 
-tile.processor_cluster.tier1.name=Processor Cluster
-tile.rocket_multiblock_casing.vinyl_ceiling_tile.name=Vinyl Ceiling Tile
-tile.rocket_multiblock_casing.ceiling_grid_filter_unit.name=Ceiling Grid Filter Unit
-tile.rocket_multiblock_casing.vinyl_composite_flooring.name=Vinyl Composite Flooring
-tile.rocket_multiblock_casing.aerospace_gasket.name=Aerospace Gasket
-tile.metallurgy_2.polystyrene_wall.name=Polystyrene Wall
+tile.processor_cluster.tier1.name=处理器集群
+tile.rocket_multiblock_casing.vinyl_ceiling_tile.name=乙烯基天花板方块
+tile.rocket_multiblock_casing.ceiling_grid_filter_unit.name=天花板格栅过滤器
+tile.rocket_multiblock_casing.vinyl_composite_flooring.name=乙烯基复合地板
+tile.rocket_multiblock_casing.aerospace_gasket.name=航空航天密封垫
+tile.metallurgy_2.polystyrene_wall.name=聚苯乙烯墙
 
 tile.serpentine.basic.name=蛇形铜管方块
 
@@ -72,23 +72,23 @@ tile.structural_block_1.structural_block_pipocalypse.name=密集管道束结构�
 tile.structural_block_1.structural_block_vent.name=通风口结构方块
 tile.structural_block_1.structural_block_vent_broken.name=损坏通风口结构方块
 
-tile.rocket_turbopump.basic.name=Basic Rocket Turbopump
-tile.rocket_control.basic.name=Basic Rocket Control System
-tile.rocket_outer_hatch.al_2219.name=Al-2219 Rocket Hatch
-tile.rocket_tank_shell.al_2219.name=Al-2219 Tank Shell
-tile.rocket_interstage.al_7075.name=Al-7075 Rocket Interstage
-tile.rocket_fairing.al_7075.name=Al-7075 Payload Fairing Panel
-tile.rocket_nozzle.bell_basic.name=Bell Rocket Nozzle Shell
-tile.rocket_combustion_chamber.monopropellant.name=Monopropellant Combustion Chamber
-tile.rocket_combustion_chamber.bipropellant.name=Bipropellant Combustion Chamber
-tile.rocket_combustion_chamber.oxidiser.name=Oxidiser Combustion Chamber
-tile.spacecraft_life_support.oxygen_regen.name=Oxygen Regenerator
-tile.spacecraft_instrument.sensors.name=Spacecraft Sensor Array
-tile.spacecraft_hull.al_li.name=Al-Li Spacecraft Shell
-tile.rocket_nozzle.plug.name=Rocket Nozzle Plug
-tile.rocket_nozzle.expanding.name=Expanding Rocket Nozzle Shell
-tile.rocket_fairing_connector.al_7075.name=Al-7075 Fairing Connector
-tile.guidance_system.soyuz.name=Soyuz 7K Guidance System
+tile.rocket_turbopump.basic.name=基础火箭涡轮泵
+tile.rocket_control.basic.name=基础火箭控制系统
+tile.rocket_outer_hatch.al_2219.name=Al-2219火箭仓
+tile.rocket_tank_shell.al_2219.name=Al-2219油罐外壳
+tile.rocket_interstage.al_7075.name=Al-7075火箭级间段
+tile.rocket_fairing.al_7075.name=Al-7075有效载荷整流罩板
+tile.rocket_nozzle.bell_basic.name=钟形火箭喷嘴外壳
+tile.rocket_combustion_chamber.monopropellant.name=单组元推进剂燃烧室
+tile.rocket_combustion_chamber.bipropellant.name=双组元推进剂燃烧室
+tile.rocket_combustion_chamber.oxidiser.name=氧化剂燃烧室
+tile.spacecraft_life_support.oxygen_regen.name=氧气再生装置
+tile.spacecraft_instrument.sensors.name=航天器传感器阵列
+tile.spacecraft_hull.al_li.name=铝-锂航天器外壳
+tile.rocket_nozzle.plug.name=火箭喷嘴塞
+tile.rocket_nozzle.expanding.name=膨胀火箭喷嘴外壳
+tile.rocket_fairing_connector.al_7075.name=Al-7075整流罩连接器
+tile.guidance_system.soyuz.name=联盟7K制导系统
 
 tile.deposit_block.orthomagmatic.name=正岩浆岩矿床方块
 tile.deposit_block.metamorphic.name=变质岩矿床方块
@@ -143,20 +143,20 @@ tile.conveyor_belt.lv.name=传送带方块
 
 tile.drill_bit.steel.name=钢制铣床钻头方块
 
-tile.induction_coil_assembly.copper.name=Induction Coil Assembly
-tile.eccentric_roll.steel.name=Eccentric Crushing Wheel
-tile.grinder_casing.abrasion_resistant_casing.name=Abrasion Resistant Casing
-tile.grinder_casing.hydraulic_mechanical_gearbox.name=Hydraulic Mechanical Gearbox
-tile.grinder_casing.wear_resistant_lined_mill_shell.name=Wear Resistant Lined Mill Shell
-tile.grinder_casing.wear_resistant_lined_shell_head.name=Wear Resistant Lined Shell Head
-tile.grinder_casing.intermediate_diaphragm.name=Intermediate Diaphragm
-tile.girth_gear_tooth.steel.name=Steel Girth Gear Tooth
+tile.induction_coil_assembly.copper.name=感应线圈组件
+tile.eccentric_roll.steel.name=偏心破碎轮
+tile.grinder_casing.abrasion_resistant_casing.name=耐磨外壳
+tile.grinder_casing.hydraulic_mechanical_gearbox.name=液压机械变速箱
+tile.grinder_casing.wear_resistant_lined_mill_shell.name=耐磨衬里研磨外壳
+tile.grinder_casing.wear_resistant_lined_shell_head.name=耐磨衬里外壳头
+tile.grinder_casing.intermediate_diaphragm.name=间隔隔层
+tile.girth_gear_tooth.steel.name=钢制环齿轮齿
 
-tile.engine_casing.piston_block.name=Engine Block
+tile.engine_casing.piston_block.name=引擎方块
 
-tile.engine_casing_2.crankshaft.name=Crankshaft Casing
+tile.engine_casing_2.crankshaft.name=减振器外壳
 
-tile.active_casing.basic_intake_casing.name=Basic Intake Casing
+tile.active_casing.basic_intake_casing.name=基础进气外壳
 
 # Rocks
 tile.susy_stone_smooth.gabbro.name=辉长岩
@@ -212,15 +212,15 @@ susy.material.latex=胶乳
 susy.material.mud=泥
 susy.material.sea_water=海水
 susy.material.refractory_gunning_mixture=耐火喷补料
-susy.material.preheated_air=Preheated Air
-susy.material.midgrade_lubricant=Midgrade Lubricant
-susy.material.premium_lubricant=Premium Lubricant
-susy.material.supreme_lubricant=Supreme Lubricant
-susy.material.coolant=Coolant
-susy.material.advanced_coolant=Advanced Coolant
-susy.material.lubricating_oil=Lubricating Oil
-susy.material.aluminium_alloy_7075=Aluminium Alloy 7075
-susy.material.aluminium_alloy_6061=Aluminium Alloy 6061
+susy.material.preheated_air=预热空气
+susy.material.midgrade_lubricant=中级润滑剂
+susy.material.premium_lubricant=优质润滑剂
+susy.material.supreme_lubricant=顶级润滑剂
+susy.material.coolant=冷却剂
+susy.material.advanced_coolant=高级冷却剂
+susy.material.lubricating_oil=润滑油
+susy.material.aluminium_alloy_7075=铝合金-7075
+susy.material.aluminium_alloy_6061=铝合金-6061
 
 # Rock/Mineral Materials
 susy.material.fluorite=氟石
@@ -247,8 +247,8 @@ susy.material.lizardite=利蛇纹石
 
 # Fluorinate Ketones
 
-susy.material.perfluoro_2_methyl_3_pentanone=Perfluoro(2-methyl-3-pentanone)
-susy.material.warm_perfluoro_2_methyl_3_pentanone=Warm Perfluoro(2-methyl-3-pentanone)
+susy.material.perfluoro_2_methyl_3_pentanone=全氟己酮
+susy.material.warm_perfluoro_2_methyl_3_pentanone=温全氟己酮
 
 # Ore Prefixes (%s is the localised material name)
 item.material.oreprefix.oreGabbro=辉长岩%s矿石
@@ -285,41 +285,41 @@ susy.fluid.slurry=%s浆液
 susy.machine.steam_extractor_cannot_melt_items.warning=蒸汽提取机不能熔化物品！
 
 # Machines/Multiblocks
-susy.machine.aerospace_flight_simulator.name=Aerospace Flight Simulator
-susy.machine.aerospace_flight_simulator.gui.not_formed=Structure not formed!
-susy.machine.aerospace_flight_simulator.gui.fuel_selector_label=Fuel selector
-susy.machine.aerospace_flight_simulator.gui.gravity_selector_label=Gravity
-susy.machine.aerospace_flight_simulator.gui.success_chance=Success chance: %s
-susy.machine.aerospace_flight_simulator.gui.rocket_name=Rocket: %s
-susy.machine.aerospace_flight_simulator.gui.stages=Stages:
+susy.machine.aerospace_flight_simulator.name=航空航天飞行模拟器
+susy.machine.aerospace_flight_simulator.gui.not_formed=结构未形成！
+susy.machine.aerospace_flight_simulator.gui.fuel_selector_label=燃料选择
+susy.machine.aerospace_flight_simulator.gui.gravity_selector_label=重力
+susy.machine.aerospace_flight_simulator.gui.success_chance=成功几率: %s
+susy.machine.aerospace_flight_simulator.gui.rocket_name=火箭: %s
+susy.machine.aerospace_flight_simulator.gui.stages=阶段:
 
-susy.machine.aerospace_flight_simulator.gui.computation_power=Computation: %s googs/s
+susy.machine.aerospace_flight_simulator.gui.computation_power=计算量：%s googs/s
 # googs/s is a very technical term
-susy.machine.aerospace_flight_simulator.gui.energy_consumption=Power input: %s eu/t
-susy.machine.aerospace_flight_simulator.gui.coolant_flow=Coolant input: %s mb/s
+susy.machine.aerospace_flight_simulator.gui.energy_consumption=功率: %s EU/t
+susy.machine.aerospace_flight_simulator.gui.coolant_flow=冷却剂输入: %s L/s
 
-susy.machine.blueprint_assembler.name=Blueprint Assembler
-susy.machine.blueprint_assembler.stagename=Stage: %s
-susy.machine.blueprint_assembler.build_button_label=Build
-susy.machine.blueprint_assembler.blueprint_request=Insert Blueprint:
+susy.machine.blueprint_assembler.name=蓝图组装室
+susy.machine.blueprint_assembler.stagename=阶段: %s
+susy.machine.blueprint_assembler.build_button_label=构建
+susy.machine.blueprint_assembler.blueprint_request=插入蓝图:
 
 
-susy.rocketry.components.engine.name=Engine(s)
-susy.rocketry.components.engine_small.name=Vernier engine(s)
-susy.rocketry.components.tank.name=Tank(s)
+susy.rocketry.components.engine.name=引擎
+susy.rocketry.components.engine_small.name=游标引擎
+susy.rocketry.components.tank.name=油罐
 
-susy.rocketry.components.validation_codes.invalid_amount=Invalid amount of components
-susy.rocketry.component.validation_codes.invalid_amount=Invalid amount of components inserted
-susy.rocketry.components.validation_codes.invalid_card=Malformed component card
-susy.rocketry.components.validation_codes.incompatible_card=Incompatible card
-susy.rocketry.components.validation_codes.unknown=Something broke
-susy.rocketry.components.validation_codes.success=Blueprint assembled successfully
+susy.rocketry.components.validation_codes.invalid_amount=组件数量不正确
+susy.rocketry.component.validation_codes.invalid_amount=插入的组件数量不正确
+susy.rocketry.components.validation_codes.invalid_card=组件卡格式错误
+susy.rocketry.components.validation_codes.incompatible_card=不兼容的卡
+susy.rocketry.components.validation_codes.unknown=有什么东西坏了
+susy.rocketry.components.validation_codes.success=蓝图组装成功
 
-susy.rocketry.stages.block_F.name=Block F
-susy.rocketry.stages.block_A.name=Block A
-susy.rocketry.stages.boosters.name=Boosters
+susy.rocketry.stages.block_F.name=F区
+susy.rocketry.stages.block_A.name=A区
+susy.rocketry.stages.boosters.name=驱动
 
-susy.rocketry.soyuz.name=Soyuz FG
+susy.rocketry.soyuz.name=联盟-FG
 
 susy.machine.magnetic_refrigerator.name=磁制冷机
 susy.multiblock.magnetic_refrigerator.min_temperature=§b最低温度：%s
@@ -372,19 +372,19 @@ susy.machine.railroad_engineering_station.name=铁路工程站
 susy.machine.railroad_engineering_station.tooltip=在多方块结构的中心放置沉浸铁路的铁轨以使之成型
 susy.machine.railroad_engineering_station.tooltip.1=铁轨下的混凝土可以被包括管道和空气在内的任意方块替换
 susy.machine.quarry.name=采石场
-susy.machine.eccentric_roll_crusher.name=Eccentric Roll Crusher
-susy.machine.eccentric_roll_crusher.tooltip=Eccentricity does not mean low efficiency.
-susy.machine.ball_mill.name=Ball Mill
-susy.machine.ball_mill.tooltip=They see me rolling
-susy.multiblock.ball_mill.tooltip.mill_balls=Requires %s mill balls to function.
-susy.multiblock.ball_mill.error.missing_mill_balls=Not enough mill balls were found for the recipe!
+susy.machine.eccentric_roll_crusher.name=偏心辊式破碎机
+susy.machine.eccentric_roll_crusher.tooltip=偏心并不意味着效率低下。
+susy.machine.ball_mill.name=球磨机
+susy.machine.ball_mill.tooltip=它们看着我在滚动。
+susy.multiblock.ball_mill.tooltip.mill_balls=需要 %s 个磨球来运行。
+susy.multiblock.ball_mill.error.missing_mill_balls=未找到该配方所需的足够数量的磨球！
 
-susy.machine.redstone_controller.not_connected=No machine to control found!
-susy.machine.redstone_controller.signal_desc=Transmitting signal: %s
-susy.machine.redstone_controller.signal_label=Signal: %s/%s
-susy.machine.redstone_controller.pulled.false=Can be activated
-susy.machine.redstone_controller.pulled.true=Signal sent, needs a reset
-susy.machine.redstone_controller.name=Redstone Machine Controller
+susy.machine.redstone_controller.not_connected=未找到可控制的机器！
+susy.machine.redstone_controller.signal_desc=发送信号: %s
+susy.machine.redstone_controller.signal_label=信号: %s/%s
+susy.machine.redstone_controller.pulled.false=可激活
+susy.machine.redstone_controller.pulled.true=已发送信号，需要重置
+susy.machine.redstone_controller.name=红石机器控制器
 
 susy.machine.evaporation_pool.name=蒸发池：
 susy.machine.evaporation_pool.tooltip.info=最大池底面积%1$sx%1$s，最小为%2$sx%2$s。查看JEI信息页面或Tooltip以获取详细信息。
@@ -422,7 +422,7 @@ susy.machine.primitive_mud_pump.tooltip=仅在Y=64与Y=80之间的河流群系�
 susy.machine.basic_steam_turbine.name=大型蒸汽轮机
 susy.machine.advanced_steam_turbine.name=高级蒸汽轮机
 susy.machine.basic_gas_turbine.name=大型燃气轮机
-susy.machine.internal_combustion_generator.name=Internal Combustion Generator
+susy.machine.internal_combustion_generator.name=内置燃烧发电机
 susy.machine.large_fluid_pump.name=大型液泵
 susy.machine.large_fluid_pump.tooltip.1=这势必会对当地的鲑鱼种群造成影响。
 susy.machine.large_fluid_pump.tooltip.2=仅在控制器方块位于Y=64，且最下方的钢管道外壳处于正确群系时运行。
@@ -451,14 +451,14 @@ susy.machine.froth_flotation_tank.name=泡沫浮选机
 susy.machine.multi_stage_flash_distiller.name=多级闪蒸室
 susy.machine.high_temperature_distillation_tower.name=高温蒸馏塔
 susy.machine.rotary_kiln.name=回转炉
-susy.machine.rotary_kiln_v2.name=Rotary Kiln
+susy.machine.rotary_kiln_v2.name=回转炉
 susy.machine.low_pressure_cryogenic_distillation_plant.name=低压低温蒸馏厂
 susy.machine.high_pressure_cryogenic_distillation_plant.name=高压低温蒸馏厂
 susy.machine.single_column_cryogenic_distillation_plant.name=单塔式低温蒸馏厂
 susy.machine.reverberatory_furnace.name=反射炉
 susy.machine.blender.name=搅拌器
 susy.machine.sieve_distillation_tower.name=筛板蒸馏塔
-susy.machine.induction_furnace.name=Induction Furnace
+susy.machine.induction_furnace.name=感应炉
 
 susy.machine.curtain_coater.name=淋幕式涂饰机
 susy.multiblock.pattern.error.conveyor=§c传送带方块的朝向必须一致§r
@@ -469,25 +469,25 @@ susy.multiblock.pattern.error.milling.lower=§c仅可放置于机器下部§r
 
 susy.machine.drone_pad.name=无人机坪
 susy.machine.primitive_smelter.name=简易冶炼炉
-susy.machine.cupola_furnace.name=Cupola Furnace
-susy.machine.cupola_furnace.tooltip=Gains one parallel per block layer
-susy.machine.large_steam_hammer.name=Large Steam Hammer
+susy.machine.cupola_furnace.name=冲天炉
+susy.machine.cupola_furnace.tooltip=每增加一层就增加1并行
+susy.machine.large_steam_hammer.name=大型蒸汽锻造锤
 susy.machine.landing_pad.name=着陆平台
 susy.machine.scrap_recycler.name=废料回收器
 
 susy.machine.rocket_assembler.name=火箭装配站
-susy.machine.rocket_assembler.signal.start_assembly=Start assembly
-susy.machine.rocket_assembler.signal.stop_assembly=Stop and discard assembly
-susy.machine.rocket_assembler.blueprint_slot.name=insert a rocket blueprint
-susy.machine.rocket_assembler.gui.required_items=Required Items:
-susy.machine.rocket_assembler.gui.stop=Stop and reset assembly
-susy.machine.rocket_assembler.gui.start=start the assembly process
-susy.machine.rocket_assembler.blueprint_stop.name=Blueprint Slot
+susy.machine.rocket_assembler.signal.start_assembly=开始装配
+susy.machine.rocket_assembler.signal.stop_assembly=停止并放弃装配
+susy.machine.rocket_assembler.blueprint_slot.name=插入一个火箭蓝图
+susy.machine.rocket_assembler.gui.required_items=所需物品:
+susy.machine.rocket_assembler.gui.stop=停止并重置装配
+susy.machine.rocket_assembler.gui.start=开始装配处理
+susy.machine.rocket_assembler.blueprint_stop.name=蓝图槽
 
 susy.machine.rocket_programmer.name=火箭编程器
-susy.machine.rocket_programmer.gui.not_enough_budget=The rocket cannot perform every programmed mission.
+susy.machine.rocket_programmer.gui.not_enough_budget=这枚火箭无法执行所有预定的任务。
 susy.machine.metallurgical_converter.name=转炉
-susy.machine.injection_molder.name=Injection Molder
+susy.machine.injection_molder.name=注塑机
 
 susy.machine.primitive_item_import.name=简易输入总线
 susy.machine.primitive_item_import.tooltip=仅可用于简易冶炼炉
@@ -512,10 +512,10 @@ susy.recipe.cryogenic_environment=需要低温环境
 susy.recipe.mixer_settler_cells=需要沉降单元数：%s
 
 # More Distilleries
-susy.machine.distiller.bronze.name=Steam Distillery
-susy.machine.distiller.steel.name=High Pressure Steam Distillery
-susy.machine.distiller.bronze.tooltip=Extracting most relevant Parts of Fluids
-susy.machine.distiller.steel.tooltip=Extracting most relevant Parts of Fluids
+susy.machine.distiller.bronze.name=蒸汽蒸馏室
+susy.machine.distiller.steel.name=高压蒸汽蒸馏室
+susy.machine.distiller.bronze.tooltip=提取流体中最具相关性的部分
+susy.machine.distiller.steel.tooltip=提取流体中最具相关性的部分
 
 # Latex Collector
 susy.machine.latex_collector.steam=需要蒸汽！
@@ -634,8 +634,8 @@ susy.machine.bubble_column_reactor.uxv.name=史诗鼓泡反应器 IV
 susy.machine.bubble_column_reactor.opv.name=传说鼓泡反应器
 
 # Batch Reactor
-susy.machine.batch_reactor.bronze.name=Steam Batch Reactor
-susy.machine.batch_reactor.steel.name=High Pressure Steam Batch Reactor
+susy.machine.batch_reactor.bronze.name=蒸汽间歇式反应釜
+susy.machine.batch_reactor.steel.name=高压蒸汽间歇式反应釜
 susy.machine.batch_reactor.lv.name=基础间歇式反应釜
 susy.machine.batch_reactor.mv.name=进阶间歇式反应釜
 susy.machine.batch_reactor.hv.name=进阶间歇式反应釜 II
@@ -756,19 +756,19 @@ susy.machine.cvd.uxv.name=史诗化学气相沉积（CVD）装置 IV
 susy.machine.cvd.opv.name=传说化学气相沉积（CVD）装置
 
 # ALD
-susy.machine.ald.lv.name=Basic ALD Unit
-susy.machine.ald.mv.name=Advanced ALD Unit
-susy.machine.ald.hv.name=Advanced ALD Unit II
-susy.machine.ald.ev.name=Advanced ALD Unit III
-susy.machine.ald.iv.name=Elite ALD Unit
-susy.machine.ald.luv.name=Elite ALD Unit II
-susy.machine.ald.zpm.name=Elite ALD Unit III
-susy.machine.ald.uv.name=Ultimate ALD Unit
-susy.machine.ald.uhv.name=Epic ALD Unit
-susy.machine.ald.uev.name=Epic ALD Unit II
-susy.machine.ald.uiv.name=Epic ALD Unit III
-susy.machine.ald.uxv.name=Epic ALD Unit IV
-susy.machine.ald.opv.name=Legendary ALD Unit
+susy.machine.ald.lv.name=基础原子层沉积（ALD）装置
+susy.machine.ald.mv.name=进阶原子层沉积（ALD）装置
+susy.machine.ald.hv.name=进阶原子层沉积（ALD）装置 II
+susy.machine.ald.ev.name=进阶原子层沉积（ALD）装置 III
+susy.machine.ald.iv.name=精英原子层沉积（ALD）装置
+susy.machine.ald.luv.name=精英原子层沉积（ALD）装置 II
+susy.machine.ald.zpm.name=精英原子层沉积（ALD）装置 III
+susy.machine.ald.uv.name=终极原子层沉积（ALD）装置
+susy.machine.ald.uhv.name=史诗原子层沉积（ALD）装置
+susy.machine.ald.uev.name=史诗原子层沉积（ALD）装置 II
+susy.machine.ald.uiv.name=史诗原子层沉积（ALD）装置 III
+susy.machine.ald.uxv.name=史诗原子层沉积（ALD）装置 IV
+susy.machine.ald.opv.name=传说原子层沉积（ALD）装置
 
 # Ion Implanter
 susy.machine.ion_implanter.lv.name=基础离子注入机
@@ -892,25 +892,25 @@ susy.machine.polishing_machine.uxv.name=史诗抛光机 IV
 susy.machine.polishing_machine.opv.name=传说抛光机
 
 # Resistance Furnace
-susy.machine.resistance_furnace.lv.name=Basic Resistance Furnace
-susy.machine.resistance_furnace.mv.name=Advanced Resistance Furnace
-susy.machine.resistance_furnace.hv.name=Advanced Resistance Furnace II
-susy.machine.resistance_furnace.ev.name=Advanced Resistance Furnace III
-susy.machine.resistance_furnace.iv.name=Elite Resistance Furnace
-susy.machine.resistance_furnace.luv.name=Elite Resistance Furnace II
-susy.machine.resistance_furnace.zpm.name=Elite Resistance Furnace III
-susy.machine.resistance_furnace.uv.name=Ultimate Resistance Furnace
-susy.machine.resistance_furnace.uhv.name=Epic Resistance Furnace
-susy.machine.resistance_furnace.uev.name=Epic Resistance Furnace II
-susy.machine.resistance_furnace.uiv.name=Epic Resistance Furnace III
-susy.machine.resistance_furnace.uxv.name=Epic Resistance Furnace IV
-susy.machine.resistance_furnace.opv.name=Legendary Resistance Furnace
+susy.machine.resistance_furnace.lv.name=基础电阻炉
+susy.machine.resistance_furnace.mv.name=进阶电阻炉
+susy.machine.resistance_furnace.hv.name=进阶电阻炉 II
+susy.machine.resistance_furnace.ev.name=进阶电阻炉 III
+susy.machine.resistance_furnace.iv.name=精英电阻炉
+susy.machine.resistance_furnace.luv.name=精英电阻炉 II
+susy.machine.resistance_furnace.zpm.name=精英电阻炉 III
+susy.machine.resistance_furnace.uv.name=终极电阻炉
+susy.machine.resistance_furnace.uhv.name=史诗电阻炉
+susy.machine.resistance_furnace.uev.name=史诗电阻炉 II
+susy.machine.resistance_furnace.uiv.name=史诗电阻炉 III
+susy.machine.resistance_furnace.uxv.name=史诗电阻炉 IV
+susy.machine.resistance_furnace.opv.name=传说电阻炉
 
 # Greenhouse
-susy.machine.greenhouse.name=Greenhouse
-susy.machine.greenhouse.tooltip.1=Each cell is one additional parallel
-susy.machine.greenhouse.tooltip.2=Max parallels: §c6
-recipemap.greenhouse_plant.name=Greenhouse
+susy.machine.greenhouse.name=温室
+susy.machine.greenhouse.tooltip.1=每个单元都增加1并行
+susy.machine.greenhouse.tooltip.2=最大并行: §c6
+recipemap.greenhouse_plant.name=温室
 
 susy.machine.bath_condenser.name=浴式冷凝器
 susy.machine.bath_condenser.tooltip=仅在低温蒸馏厂中工作
@@ -954,47 +954,47 @@ tile.metallurgy.hydraulic_cylinder.name=液压缸
 tile.metallurgy_2.flying_shear_saw.name=飞剪锯
 tile.metallurgy_roll.roll.name=导辊
 
-susy.machine.fuel_cell.ev.name=Low Temperature Fuel Cell
-susy.machine.fuel_cell.iv.name=High Temperature Fuel Cell
-susy.machine.fuel_cell.tooltip=Temperature requirements for operation: %s°C
+susy.machine.fuel_cell.ev.name=低温燃料电池
+susy.machine.fuel_cell.iv.name=高温燃料电池
+susy.machine.fuel_cell.tooltip=运行温度要求: %s°C
 
 
-susy.machine.combustion_generator.lv.name=Basic Combustion Generator
-susy.machine.combustion_generator.mv.name=Advanced Combustion Generator
-susy.machine.combustion_generator.hv.name=Advanced Combustion Generator II
-susy.machine.combustion_generator.tooltip=Requires lubricant and coolant to operate. Accepted coolants: Water, Distilled Water, Coolant, Advanced Coolant.
+susy.machine.combustion_generator.lv.name=基础燃烧发电机
+susy.machine.combustion_generator.mv.name=进阶燃烧发电机
+susy.machine.combustion_generator.hv.name=进阶燃烧发电机 II
+susy.machine.combustion_generator.tooltip=运行时需要润滑剂和冷却液。可用的冷却液包括：水、蒸馏水、冷却液、高级冷却液。
 
-susy.multiblock.rotation_generator.fuel_name=Fuel: %s
-susy.multiblock.rotation_generator.lubricant=Lubricant: %s (%sx)
-susy.multiblock.rotation_generator.power=Power: %s / %s EU/t
-susy.multiblock.rotation_generator.lubricant_amount=Lubricant: %s | Consumption: %s
-susy.multiblock.rotation_generator.tooltip=Max Rotation Speed: %s RPM, Spin-Up: %s RPM/t, Spin-Down: %s RPM/t.
-susy.multiblock.rotation_generator.fuel_needed=Consuming %s (Max %s) per %s ticks
+susy.multiblock.rotation_generator.fuel_name=燃料: %s
+susy.multiblock.rotation_generator.lubricant=润滑剂: %s (%sx)
+susy.multiblock.rotation_generator.power=功率: %s / %s EU/t
+susy.multiblock.rotation_generator.lubricant_amount=润滑剂: %s | 消耗: %s
+susy.multiblock.rotation_generator.tooltip=最大转速: %s RPM, 预热: %s RPM/t, 缓停: %s RPM/t.
+susy.multiblock.rotation_generator.fuel_needed=消费 %s (最大 %s) 每 %s 刻
 
 # Sputtering Machine
-susy.machine.sputter_deposition.lv.name=Basic Sputtering Machine
-susy.machine.sputter_deposition.mv.name=Advanced Sputtering Machine
-susy.machine.sputter_deposition.hv.name=Advanced Sputtering Machine II
-susy.machine.sputter_deposition.ev.name=Advanced Sputtering Machine III
-susy.machine.sputter_deposition.iv.name=Elite Sputtering Machine
-susy.machine.sputter_deposition.luv.name=Elite Sputtering Machine II
-susy.machine.sputter_deposition.zpm.name=Elite Sputtering Machine III
-susy.machine.sputter_deposition.uv.name=Ultimate Sputtering Machine
-susy.machine.sputter_deposition.uhv.name=Epic Sputtering Machine
-susy.machine.sputter_deposition.uev.name=Epic Sputtering Machine II
-susy.machine.sputter_deposition.uiv.name=Epic Sputtering Machine III
-susy.machine.sputter_deposition.uxv.name=Epic Sputtering Machine IV
-susy.machine.sputter_deposition.opv.name=Legendary Sputtering Machine
+susy.machine.sputter_deposition.lv.name=基础溅射机
+susy.machine.sputter_deposition.mv.name=进阶溅射机
+susy.machine.sputter_deposition.hv.name=进阶溅射机 II
+susy.machine.sputter_deposition.ev.name=进阶溅射机 III
+susy.machine.sputter_deposition.iv.name=精英溅射机
+susy.machine.sputter_deposition.luv.name=精英溅射机 II
+susy.machine.sputter_deposition.zpm.name=精英溅射机 III
+susy.machine.sputter_deposition.uv.name=终极溅射机
+susy.machine.sputter_deposition.uhv.name=史诗溅射机
+susy.machine.sputter_deposition.uev.name=史诗溅射机 II
+susy.machine.sputter_deposition.uiv.name=史诗溅射机 III
+susy.machine.sputter_deposition.uxv.name=史诗溅射机 IV
+susy.machine.sputter_deposition.opv.name=传说溅射机
 
-susy.machine.component_scanner.name=Spacecraft Component Scanner
-susy.machine.component_scanner.scan_button=Scan Part
-susy.machine.component_scanner.unscanned=Component unscanned.
-susy.machine.component_scanner.failure=Scan failed.
-susy.machine.component_scanner.success=Component successfully analyzed.
-susy.machine.component_scanner.scanning=Scanning...
-susy.machine.component_scanner.pos=Error found at %s
+susy.machine.component_scanner.name=航天器部件扫描仪
+susy.machine.component_scanner.scan_button=扫描部件
+susy.machine.component_scanner.unscanned=未扫描到部件
+susy.machine.component_scanner.failure=扫描失败
+susy.machine.component_scanner.success=部件已成功分析完毕。
+susy.machine.component_scanner.scanning=扫描中...
+susy.machine.component_scanner.pos=在 %s 发现了错误
 
-susy.machine.building_cleanroom.name=Spacecraft Component Cleanroom
+susy.machine.building_cleanroom.name=航天器部件超净间
 
 # Recipemaps
 recipemap.coagulation_tank.name=凝固
@@ -1016,7 +1016,7 @@ recipemap.polymerization_tank.name=聚合缸
 recipemap.uv_light_box.name=紫外线辐照
 recipemap.ion_implantation.name=离子注入
 recipemap.cvd.name=化学气相沉积
-recipemap.ald.name=Atomic Layer Deposition
+recipemap.ald.name=原子层沉积
 recipemap.ore_sorter.name=矿石拣选
 recipemap.cooling_tower.name=冷却塔
 recipemap.natural_draft_cooling_tower.name=冷却装置
@@ -1055,7 +1055,7 @@ recipemap.gravity_separator=重力分离
 recipemap.spinning.name=纺线
 recipemap.large_steam_turbine.name=大型蒸汽轮机
 recipemap.primitive_smelter.name=简易冶炼
-recipemap.cupola_furnace.name=Cupola Furnace
+recipemap.cupola_furnace.name=冲天炉
 recipemap.large_fluid_pump.name=泵取液体
 recipemap.sieve_distillation.name=分馏
 recipemap.jet_wingpack_fuels.name=喷气翼包燃料
@@ -1065,21 +1065,21 @@ recipemap.hot_isostatic_press.name=热等静压烧结
 recipemap.gas_atomizer.name=气雾化制粉
 recipemap.metallurgical_converter.name=转炉冶炼
 recipemap.advanced_steam_turbine.name=高级蒸汽轮机
-recipemap.low_pressure_advanced_steam_turbine.name=Low Pressure Advanced Steam Turbine
-recipemap.high_pressure_advanced_steam_turbine.name=High Pressure Advanced Steam Turbine
-recipemap.sputter_deposition.name=Sputter Deposition
-recipemap.mixer_settler.name=Mixer-Settler
-recipemap.injection_molder=Injection Molding
-recipemap.boiler.name=Solid Boiler Fuels
-recipemap.fuel_cell.name=Solid Oxide Fuel Cell (SOFC)
-recipemap.induction_furnace.name=Induction Furnace
-recipemap.resistance_furnace.name=Resistance Furnace
-recipemap.eccentric_roll_crusher.name=Eccentric Roll Crushing
-recipemap.ball_mill.name=Ball Milling
+recipemap.low_pressure_advanced_steam_turbine.name=低压力高级蒸汽轮机
+recipemap.high_pressure_advanced_steam_turbine.name=高压力高级蒸汽轮机
+recipemap.sputter_deposition.name=溅射沉积
+recipemap.mixer_settler.name=混合沉降
+recipemap.injection_molder=注塑成型
+recipemap.boiler.name=固体锅炉燃料
+recipemap.fuel_cell.name=氧化固体燃料电池(SOFC)
+recipemap.induction_furnace.name=感应炉
+recipemap.resistance_furnace.name=电阻炉
+recipemap.eccentric_roll_crusher.name=偏心辊式破碎
+recipemap.ball_mill.name=球磨
 recipemap.atomic_layer_deposition.name=原子层沉积
-recipemap.wire_bonding=Wire Bonding
+recipemap.wire_bonding=引线键合
 recipemap.screen_printer=絲網印刷
-recipemap.plasma_ashing=Plasma Asher
+recipemap.plasma_ashing=等离子体刻蚀
 recipemap.resist_processor=旋转涂覆
 recipemap.reactive_ion_etching=反应离子蝕刻
 
@@ -1221,11 +1221,11 @@ metaarmor.jet_wingpack.engine_active=喷气翼包：引擎发动
 metaarmor.jet_wingpack.engine_inactive=喷气翼包：引擎熄火
 
 # Structure Data Cards
-metaitem.data_card.name=Empty Structure Card
-metaitem.data_card.tooltip.1=Insert into a Component Scanner to store the part representation.
-metaitem.data_card.active.name=Loaded Structure Card
-metaitem.data_card.active.tooltip.1=Load this into a Rocket Assembler to build the component.
-metaitem.data_card.master_blueprint.name=Rocket Blueprint
+metaitem.data_card.name=空结构卡
+metaitem.data_card.tooltip.1=将其插入航天器部件扫描仪中以存储部件标记。
+metaitem.data_card.active.name=载入结构卡
+metaitem.data_card.active.tooltip.1=将此加载到火箭装配站中以构建该部件。
+metaitem.data_card.master_blueprint.name=火箭蓝图
 
 # Machine Translations
 susy.wrongbiome=此机器不能在该群系运行！
@@ -1274,20 +1274,20 @@ susy.gui.stock_interactor.controller_setting.active_throttle.tooltip=油门（�
 susy.gui.stock_interactor.controller_setting.inactive_brake.tooltip=刹车（未充能时）
 susy.gui.stock_interactor.controller_setting.inactive_throttle.tooltip=油门（未充能时）
 
-susy.gui.rocket_programmer.orbit=Orbit the destination
-susy.gui.rocket_programmer.landing=Land on the destination at specific coordinates
+susy.gui.rocket_programmer.orbit=环绕目的地
+susy.gui.rocket_programmer.landing=降落在目标地点的指定坐标处
 
-susy.gui.rocket_programmer.mission_type=Mission type
-susy.gui.rocket_programmer.planetoid=Destination
-susy.gui.rocket_programmer.destination_type=Destination type
-susy.gui.rocket_programmer.landing_coordinates=Landing coordinates
+susy.gui.rocket_programmer.mission_type=任务类型
+susy.gui.rocket_programmer.planetoid=目的地
+susy.gui.rocket_programmer.destination_type=目的地类型
+susy.gui.rocket_programmer.landing_coordinates=着陆坐标
 
-susy.gui.page=Page %s / %s
+susy.gui.page= %s 页 / %s 页
 
-susy.gui.temperature_celsius=Temperature: %s / %s°C
+susy.gui.temperature_celsius=温度: %s / %s°C
 
-susy.gui.toggle_energy_voiding.enabled=Voiding energy when full
-susy.gui.toggle_energy_voiding.disabled=Not voiding energy
+susy.gui.toggle_energy_voiding.enabled=排出过量能量
+susy.gui.toggle_energy_voiding.disabled=不排出过量能量
 
 # Extra recipe info
 susy.recipe.dimensions=维度：%s
@@ -1320,25 +1320,25 @@ susy.fluid.voiding.flammable=可于火炬塔中销毁
 # Quarry Modes
 susy.multiblock.quarry.excavation_mode=采掘模式
 susy.multiblock.quarry.recipe_mode=配方模式
-susy.machine.quarry.tooltip.info=Max square of %1$sx%1$s, minimum %2$sx%2$s. Hold shift for more details.
-susy.machine.quarry.tooltip.structure_info=Quarries can be formed with any odd dimensions ranging from %2$sx%2$s to %1$sx%1$s, even if it is non-square. Extend the bottom layer of concrete blocks on the corners, so a 23-wide quarry will have 9 concrete per side, and 5 inside blocks.
+susy.machine.quarry.tooltip.info=最大 %1$sx%1$s， 最小 %2$sx%2$s。 按住SHIFT查看更多。
+susy.machine.quarry.tooltip.structure_info=采石场的范围可以是任何奇数范围，从 %2$sx%2$s 到 %1$sx%1$s，即使它不是正方形的。在角落处延长混凝土方块，这样，一个23格宽的采石场每侧将有9块混凝土，内部则有5块。
 
 death.attack.toxic_atmo=%s的肺变成了碎片
 death.attack.suffocation=%s无法呼吸
-death.attack.pressure=%s got squeezed
-death.attack.depressurization=%s died from an embolism
-death.attack.impact=%s experienced terminal deceleration
-death.attack.vaporization=%s stopped being biology and started being physics
-death.attack.alpha_radiation=%s ingested something too spicy
-death.attack.beta_radiation=%s had their chromosomes shredded
-death.attack.neutron_radiation=%s was spiced up by neutrons
-death.attack.uv_radiation=%s forgot to apply sunscreen
-death.attack.x_radiation=%s got a non-consensual radiography
-death.attack.gamma_radiation=%s died from internal sunburns
-death.attack.spaghettification=%s was spaghettified
-death.attack.age=%s died of old age
-death.attack.chronoerasure=%s never existed
-death.attack.crusher=%s was ground into a pulp
+death.attack.pressure=%s被压扁了
+death.attack.depressurization=%s死于栓塞
+death.attack.impact=%s经历了终端减速
+death.attack.vaporization=%s离开了生物学，开始了物理学
+death.attack.alpha_radiation=%s吸收了很辣的东西
+death.attack.beta_radiation=%s的染色体被切碎了
+death.attack.neutron_radiation=%s被中子赋予了活力
+death.attack.uv_radiation=%s忘了涂防晒霜
+death.attack.x_radiation=%s未经同意被拍摄了X光片
+death.attack.gamma_radiation=%s死于内脏晒伤
+death.attack.spaghettification=%s变成了意大利面
+death.attack.age=%s老死了
+death.attack.chronoerasure=%s从未存在过
+death.attack.crusher=%s被碾成了浆糊
 
 metaitem.simple_gas_mask.name=简易防毒面具
 metaitem.simple_gas_mask.tooltip=让你在无氧环境中生存一段时间
@@ -1410,143 +1410,143 @@ supersymmetry.title.2=欢迎来到地球
 supersymmetry.subtitle.2=维生系统：稳定。着陆舱燃料：46%%。
 
 # Locked Crates
-chat.susy.crate.requires_code_breacher=This crate requires a code breacher!
-susy.machine.locked_crate.pe.name=Hermetically Sealed Crate
-susy.machine.locked_crate.wood.name=Wooden Crate
-susy.machine.locked_crate.bronze.name=Bronze Crate
-susy.machine.locked_crate.steel.name=Steel Crate
-susy.machine.locked_crate.aluminium.name=Aluminium Crate
-susy.machine.locked_crate.stainless_steel.name=Stainless Steel Crate
-susy.machine.locked_crate.titanium.name=Titanium Crate
-susy.machine.locked_crate.tungstensteel.name=Tungstensteel Crate
+chat.susy.crate.requires_code_breacher=这个板条箱需要一个破译器！
+susy.machine.locked_crate.pe.name=密封板条箱
+susy.machine.locked_crate.wood.name=木板条箱
+susy.machine.locked_crate.bronze.name=青铜板条箱
+susy.machine.locked_crate.steel.name=钢板条箱
+susy.machine.locked_crate.aluminium.name=铝板条箱
+susy.machine.locked_crate.stainless_steel.name=不锈钢板条箱
+susy.machine.locked_crate.titanium.name=钛板条箱
+susy.machine.locked_crate.tungstensteel.name=钨钢板条箱
 
 # Boilers
-susy.machine.large_boiler.bronze.name=Large Bronze Boiler
-susy.machine.large_boiler.steel.name=Large Steel Boiler
+susy.machine.large_boiler.bronze.name=大型青铜锅炉
+susy.machine.large_boiler.steel.name=大型钢锅炉
 
-susy.machine.large_boiler.bronze.signal.incr1=Throttle increase (1%%)
-susy.machine.large_boiler.bronze.signal.incr5=Throttle increase (5%%)
-susy.machine.large_boiler.bronze.signal.incr10=Throttle increase (10%%)
-susy.machine.large_boiler.bronze.signal.incr25=Throttle increase (25%%)
-susy.machine.large_boiler.bronze.signal.dec1=Throttle decrease (1%%)
-susy.machine.large_boiler.bronze.signal.dec5=Throttle decrease (5%%)
-susy.machine.large_boiler.bronze.signal.dec10=Throttle decrease (10%%)
-susy.machine.large_boiler.bronze.signal.dec25=Throttle decrease (25%%)
-susy.machine.large_boiler.bronze.signal.set100=Set throttle to 100%%
-susy.machine.large_boiler.bronze.signal.set25=Set throttle to 25%%
+susy.machine.large_boiler.bronze.signal.incr1=功率增大 (1%%)
+susy.machine.large_boiler.bronze.signal.incr5=功率增大 (5%%)
+susy.machine.large_boiler.bronze.signal.incr10=功率增大 (10%%)
+susy.machine.large_boiler.bronze.signal.incr25=功率增大 (25%%)
+susy.machine.large_boiler.bronze.signal.dec1=功率降低 (1%%)
+susy.machine.large_boiler.bronze.signal.dec5=功率降低 (5%%)
+susy.machine.large_boiler.bronze.signal.dec10=功率降低 (10%%)
+susy.machine.large_boiler.bronze.signal.dec25=功率降低 (25%%)
+susy.machine.large_boiler.bronze.signal.set100=设置功率为100%%
+susy.machine.large_boiler.bronze.signal.set25=设置功率为25%%
 
-susy.machine.large_boiler.bronze.signal.incr1=Throttle increase (1%%)
-susy.machine.large_boiler.steel.signal.incr5=Throttle increase (5%%)
-susy.machine.large_boiler.steel.signal.incr10=Throttle increase (10%%)
-susy.machine.large_boiler.steel.signal.incr25=Throttle increase (25%%)
-susy.machine.large_boiler.bronze.signal.dec1=Throttle decrease (1%%)
-susy.machine.large_boiler.steel.signal.dec5=Throttle decrease (5%%)
-susy.machine.large_boiler.steel.signal.dec10=Throttle decrease (10%%)
-susy.machine.large_boiler.steel.signal.dec25=Throttle decrease (25%%)
-susy.machine.large_boiler.steel.signal.set100=Set throttle to 100%%
-susy.machine.large_boiler.steel.signal.set25=Set throttle to 25%%
+susy.machine.large_boiler.bronze.signal.incr1=功率增大 (1%%)
+susy.machine.large_boiler.steel.signal.incr5=功率增大 (5%%)
+susy.machine.large_boiler.steel.signal.incr10=功率增大 (10%%)
+susy.machine.large_boiler.steel.signal.incr25=功率增大 (25%%)
+susy.machine.large_boiler.bronze.signal.dec1=功率降低 (1%%)
+susy.machine.large_boiler.steel.signal.dec5=功率降低 (5%%)
+susy.machine.large_boiler.steel.signal.dec10=功率降低 (10%%)
+susy.machine.large_boiler.steel.signal.dec25=功率降低 (25%%)
+susy.machine.large_boiler.steel.signal.set100=设置功率为100%%
+susy.machine.large_boiler.steel.signal.set25=设置功率为25%%
 
-susy.machine.steam_boiler_coal.bronze.name=Small Steam Solid Fuel Boiler
-susy.machine.steam_boiler_coal.bronze.tooltip=An early way to get Steam Power
-susy.machine.steam_boiler_coal.steel.name=High Pressure Steam Solid Fuel Boiler
-susy.machine.steam_boiler_coal.steel.tooltip=Faster than the Small Steam Solid Fuel Boiler
-susy.machine.steam_boiler_liquid.bronze.name=Small Steam Liquid Boiler
-susy.machine.steam_boiler_liquid.bronze.tooltip=A Boiler running off Liquids
-susy.machine.steam_boiler_liquid.steel.name=High Pressure Steam Liquid Boiler
-susy.machine.steam_boiler_liquid.steel.tooltip=Faster than Small Steam Liquid Boiler
-susy.machine.steam_limited.ulv_only.tooltip=Can only run recipes up to 8 EU/t
+susy.machine.steam_boiler_coal.bronze.name=小型蒸汽固体燃料锅炉
+susy.machine.steam_boiler_coal.bronze.tooltip=获取蒸汽能源的早期手段
+susy.machine.steam_boiler_coal.steel.name=高压蒸汽固体燃料锅炉
+susy.machine.steam_boiler_coal.steel.tooltip=比小型蒸汽固体燃料锅炉要快
+susy.machine.steam_boiler_liquid.bronze.name=小型蒸汽液体燃料锅炉
+susy.machine.steam_boiler_liquid.bronze.tooltip=消耗液体的锅炉
+susy.machine.steam_boiler_liquid.steel.name=高压蒸汽液体燃料锅炉
+susy.machine.steam_boiler_liquid.steel.tooltip=比小型液体燃料锅炉要快
+susy.machine.steam_limited.ulv_only.tooltip=最大运行功率 8 EU/t
 
 #Fake Wool
-tile.fake_wool.whitefakewool.name=White Asbestos Fiber
-tile.fake_wool.orangefakewool.name=Orange Asbestos Fiber
-tile.fake_wool.magentafakewool.name=Magenta Asbestos Fiber
-tile.fake_wool.lightbluefakewool.name=Light Blue Asbestos Fiber
-tile.fake_wool.yellowfakewool.name=Yellow Asbestos Fiber
-tile.fake_wool.limefakewool.name=Lime Asbestos Fiber
-tile.fake_wool.pinkfakewool.name=Pink Asbestos Fiber
-tile.fake_wool.grayfakewool.name=Gray Asbestos Fiber
-tile.fake_wool.lightgrayfakewool.name=Light Gray Asbestos Fiber
-tile.fake_wool.cyanfakewool.name=Cyan Asbestos Fiber
-tile.fake_wool.purplefakewool.name=Purple Asbestos Fiber
-tile.fake_wool.bluefakewool.name=Blue Asbestos Fiber
-tile.fake_wool.brownfakewool.name=Brown Asbestos Fiber
-tile.fake_wool.greenfakewool.name=Green Asbestos Fiber
-tile.fake_wool.redfakewool.name=Red Asbestos Fiber
-tile.fake_wool.blackfakewool.name=Black Asbestos Fiber
+tile.fake_wool.whitefakewool.name=白色石棉纤维
+tile.fake_wool.orangefakewool.name=橙色石棉纤维
+tile.fake_wool.magentafakewool.name=品红色石棉纤维
+tile.fake_wool.lightbluefakewool.name=浅蓝色石棉纤维
+tile.fake_wool.yellowfakewool.name=黄色石棉纤维
+tile.fake_wool.limefakewool.name=黄绿色石棉纤维
+tile.fake_wool.pinkfakewool.name=粉色石棉纤维
+tile.fake_wool.grayfakewool.name=灰色石棉纤维
+tile.fake_wool.lightgrayfakewool.name=浅灰色石棉纤维
+tile.fake_wool.cyanfakewool.name=青色石棉纤维
+tile.fake_wool.purplefakewool.name=紫色石棉纤维
+tile.fake_wool.bluefakewool.name=蓝色石棉纤维
+tile.fake_wool.brownfakewool.name=棕色石棉纤维
+tile.fake_wool.greenfakewool.name=绿色石棉纤维
+tile.fake_wool.redfakewool.name=红色石棉纤维
+tile.fake_wool.blackfakewool.name=黑色石棉纤维
 
 #Particle physics stuff
-susy.particlebeam.energy=Energy
-susy.particlebeam.bunch.spacing=Bunch Spacing
-susy.particlebeam.bunch.length=Bunch Length
-susy.particlebeam.nbunches=Total Bunches
-susy.particlebeam.nparticles=Particles per bunch
-susy.particlebeam.emittance=Beam Emittance
-susy.particlebeam.beamsize=Beam Section
-susy.machine.beam_import_hatch.name=Beam Import Hatch
-susy.machine.beam_export_hatch.name=Beam Export Hatch
+susy.particlebeam.energy=能量
+susy.particlebeam.bunch.spacing=团间距
+susy.particlebeam.bunch.length=团长度
+susy.particlebeam.nbunches=团总数
+susy.particlebeam.nparticles=每团粒子数
+susy.particlebeam.emittance=束发射度
+susy.particlebeam.beamsize=束截面
+susy.machine.beam_import_hatch.name=粒子束输入仓
+susy.machine.beam_export_hatch.name=粒子束输出仓
 
 #Particles
-susy.particle.electron.name=Electron
-susy.particle.positron.name=Positron
-susy.particle.photon.name=Photon
+susy.particle.electron.name=电子
+susy.particle.positron.name=正电子
+susy.particle.photon.name=光子
 
 #Random Concrete
-tile.random_concrete.greyindustrialconcrete.name=Grey Industrial Concrete
-tile.random_concrete.mossyindustrialconcrete.name=Mossy Industrial Concrete
-tile.random_concrete.silverindustrialconcrete.name=Silver Industrial Concrete
-tile.random_concrete.whiteindustrialconcrete.name=White Industrial Concrete
+tile.random_concrete.greyindustrialconcrete.name=灰色工业混凝土
+tile.random_concrete.mossyindustrialconcrete.name=苔藓工业混凝土
+tile.random_concrete.silverindustrialconcrete.name=银色工业混凝土
+tile.random_concrete.whiteindustrialconcrete.name=白色工业混凝土
 
-tile.random_concrete.dottedpanel.name=Dotted Panel
-tile.random_concrete.dottedpanelborder.name=Dotted Panel Bordered
-tile.random_concrete.dottedpanelcomb.name=Dotted Panel Comb
-tile.random_concrete.dottedpanelgrid.name=Dotted Panel Grid
+tile.random_concrete.dottedpanel.name=点状面板
+tile.random_concrete.dottedpanelborder.name=有框点状面板
+tile.random_concrete.dottedpanelcomb.name=蜂巢状点状面板
+tile.random_concrete.dottedpanelgrid.name=网格状点状面板
 
-tile.random_concrete.industrialcinderbricks.name=Industrial Cinder Bricks
-tile.random_concrete.industrialcinderbrickscement.name=Industrial Cement Cinder Bricks
-tile.random_concrete.industrialcinderbrickscementgray.name=Grey Industrial Cement Cinder Bricks
-tile.random_concrete.industrialcinderbricksdark.name=Dark Industrial Cinder Bricks
-tile.random_concrete.industrialcinderbricksdarkgrey.name=Dark Grey Industrial Cinder Bricks
-tile.random_concrete.industrialcinderbricksgrey.name=Grey Industrial Cinder Bricks
+tile.random_concrete.industrialcinderbricks.name=工业炉灰砖
+tile.random_concrete.industrialcinderbrickscement.name=工业水泥灰砖
+tile.random_concrete.industrialcinderbrickscementgray.name=灰色工业水泥灰砖
+tile.random_concrete.industrialcinderbricksdark.name=暗色工业炉灰砖
+tile.random_concrete.industrialcinderbricksdarkgrey.name=暗灰色工业炉灰砖
+tile.random_concrete.industrialcinderbricksgrey.name=灰色工业炉灰砖
 
-tile.random_concrete.smoothindustrialconcrete.name=Smooth Industrial Concrete
-tile.random_concrete.smoothindustrialconcretegrey.name=Smooth Gray Industrial Concrete
-tile.random_concrete1.smoothindustrialconcretewhite.name=Smooth White Industrial Concrete
+tile.random_concrete.smoothindustrialconcrete.name=平滑工业混凝土
+tile.random_concrete.smoothindustrialconcretegrey.name=平滑灰色工业混凝土
+tile.random_concrete1.smoothindustrialconcretewhite.name=平滑白色工业混凝土
 
 #LittleTiles Loot
-susy.top.lt_loot=This Contains Loot
+susy.top.lt_loot=内含战利品
 
-susy.machine.building_cleanroom.tooltip.1=Creates §fStructure Cards§7 from the rocket components encoded within
-susy.machine.building_cleanroom.tooltip.2=Also works as a regular cleanroom, if you wish.
+susy.machine.building_cleanroom.tooltip.1=根据其中编码的火箭部件创建§f结构卡§7
+susy.machine.building_cleanroom.tooltip.2=如果需要，它也可以作为普通超净间使用。
 # Error Messages
-susy.msg.rocket_component.build_success=Component successfully analyzed.
-susy.msg.rocket_component.unscanned=Component not scanned.
-susy.msg.rocket_component.blocks_disconnected=The structure is in two or more parts!
-susy.msg.rocket_component.no_blocks=No blocks were found in scanning zone.
-susy.msg.rocket_component.hull_weak=A hull block was found unsuitable for flight.
-susy.msg.rocket_component.hull_full=The component is lacking interior space (at least 2 blocks).
-susy.msg.rocket_component.no_nozzle=Nozzle blocks are missing.
-susy.msg.rocket_component.nozzle_invalid=The nozzle shape is incorrect.
-susy.msg.rocket_component.unknown_error=An unknown error occurred.
-susy.msg.rocket_component.wrong_num_c_chambers=There are too many or not enough combustion chambers.
-susy.msg.rocket_component.wrong_num_pumps=There are extraneous unused turbopumps.
-susy.msg.rocket_component.weird_pump=For some reason, a pump is facing upwards. Why?
-susy.msg.rocket_component.weird_fairing=Something about this fairing is weird.
-susy.msg.rocket_component.chamber_wrong_place=A combustion chamber is inside the rocket nozzle. That's strange...
-susy.msg.rocket_component.invalid_transparent=A transparent block is in this component!
-susy.msg.rocket_component.chamber_extraneous_blocks=An unneeded block was found in the component!
-susy.msg.rocket_component.cleanroom_not_clean=The Cleanroom is not clean yet (or nonexistent)
-susy.msg.rocket_component.nozzle_not_laval=The rocket nozzle does not resemble a de Laval nozzle!
-susy.msg.rocket_component.tile_missing=There is a tile missing on the hull tank!
-susy.msg.rocket_component.no_card=Please insert an Empty Structure Card.
-susy.msg.rocket_component.part_unrecognized=The part was not recognized.
-susy.msg.rocket_component.spacecraft_hollow=The spacecraft is hollow but has no life support.
-susy.msg.rocket_component.too_short=The component is too short!
-susy.msg.rocket_component.conn_unaligned=The fairing connectors are not in planar alignment.
-susy.msg.rocket_component.conn_wrong_dir=A fairing connector is facing a block.
-susy.msg.rocket_component.wrong_tile=A tile was used incorrectly.
-susy.msg.rocket_component.interstage_not_cylindrical=The interstage looks weird.
+susy.msg.rocket_component.build_success=已成功分析部件。
+susy.msg.rocket_component.unscanned=未检测到部件。
+susy.msg.rocket_component.blocks_disconnected=结构处于多个部分!
+susy.msg.rocket_component.no_blocks=扫描区域未检测到任何方块。
+susy.msg.rocket_component.hull_weak=发现一个完整方块不适合航空。
+susy.msg.rocket_component.hull_full=该部件内部空间不足（至少缺少2个方块）。
+susy.msg.rocket_component.no_nozzle=缺少喷嘴部件。
+susy.msg.rocket_component.nozzle_invalid=喷嘴形状不正确。
+susy.msg.rocket_component.unknown_error=发生了一个未知错误。
+susy.msg.rocket_component.wrong_num_c_chambers=燃烧室的数量过多或过少。
+susy.msg.rocket_component.wrong_num_pumps=还有多余的、未使用的涡轮泵。
+susy.msg.rocket_component.weird_pump=原因未知，有一台涡轮泵朝上。为什么？
+susy.msg.rocket_component.weird_fairing=这个整流罩看起来有点奇怪。
+susy.msg.rocket_component.chamber_wrong_place=火箭喷嘴里有一个燃烧室。这真奇怪……
+susy.msg.rocket_component.invalid_transparent=该部件中包含一个透明方块！
+susy.msg.rocket_component.chamber_extraneous_blocks=在部件中发现了一个多余的方块！
+susy.msg.rocket_component.cleanroom_not_clean=超净间尚未达到超净标准（或未成功搭建）
+susy.msg.rocket_component.nozzle_not_laval=这个火箭喷嘴可不像岩浆喷嘴！
+susy.msg.rocket_component.tile_missing=船体油罐上少了一块！
+susy.msg.rocket_component.no_card=请插入一张空结构卡。
+susy.msg.rocket_component.part_unrecognized=该部件未被识别。
+susy.msg.rocket_component.spacecraft_hollow=这艘飞船是中空的，但没有生命维持系统。
+susy.msg.rocket_component.too_short=这个部件太短了！
+susy.msg.rocket_component.conn_unaligned=整流罩连接器未处于平面对齐状态。
+susy.msg.rocket_component.conn_wrong_dir=一个整流罩连接器正对着一个方块。
+susy.msg.rocket_component.wrong_tile=有一个方块安装不当。
+susy.msg.rocket_component.interstage_not_cylindrical=这级间结构看起来很奇怪。
 
-entity.Rocket.name=Soyuz FG Rocket
+entity.Rocket.name=联盟-FG火箭
 
 #BMRF blocks
 tile.bmrf_blocks.bmrf1.name=BMRF-1
