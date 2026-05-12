@@ -1,5 +1,6 @@
 # Generated
 synced.lang
+*.zip
 
 # Visual Studio Code
 .vscode
