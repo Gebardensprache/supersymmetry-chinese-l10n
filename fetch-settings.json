@@ -1,20 +1,20 @@
 {
   "project_name": "supersymmetry-chinese-l10n",
-  "version": "pack-0.1.16.6-core-0.1.100",
+  "version": "pack-0.1.16.7.1-core-0.1.103",
   "description": "Supersymmetry Chinese Localization by Gebardensprache.",
   "files": [
     {
-      "remote": "https://github.com/SymmetricDevs/Supersymmetry/raw/refs/tags/0.1.16.6/resources/langfiles/lang/en_us.lang",
+      "remote": "https://github.com/SymmetricDevs/Supersymmetry/raw/refs/tags/0.1.16.7.1/resources/langfiles/lang/en_us.lang",
       "local": "assets/langfiles/lang/en_us.lang",
       "translation": "assets/langfiles/lang/zh_cn.lang"
     },
     {
-      "remote": "https://github.com/SymmetricDevs/Supersymmetry/raw/refs/tags/0.1.16.6/config/betterquesting/resources/supersymmetry/lang/en_us.lang",
+      "remote": "https://github.com/SymmetricDevs/Supersymmetry/raw/refs/tags/0.1.16.7.1/config/betterquesting/resources/supersymmetry/lang/en_us.lang",
       "local": "assets/quests/lang/en_us.lang",
       "translation": "assets/quests/lang/zh_cn.lang"
     },
     {
-      "remote": "https://github.com/SymmetricDevs/Susy-Core/raw/refs/tags/v0.1.100/src/main/resources/assets/susy/lang/en_us.lang",
+      "remote": "https://github.com/SymmetricDevs/Susy-Core/raw/refs/tags/v0.1.103/src/main/resources/assets/susy/lang/en_us.lang",
       "local": "assets/susy/lang/en_us.lang",
       "translation": "assets/susy/lang/zh_cn.lang"
     }
