@@ -17,5 +17,5 @@ jobs:
       - name: commit changes and push
         uses: EndBug/add-and-commit@v9
         with:
-          message: "chore: Apply Spotless"
+          message: "fetcher: fetch"
           default_author: github_actions
