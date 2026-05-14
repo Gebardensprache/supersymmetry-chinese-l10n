@@ -1,0 +1,19 @@
+name: Auto Pack
+on: [pull_request, push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+      - name: make translation fetcher executable
+        run: chmod +x ./translation-fetcher
+      - name: pack
+        run: ./translation-fetcher pack
+      - name: capture build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Artifacts
+          path: |
+            */*/*.zip
