@@ -17,7 +17,9 @@ jobs:
         run: |
           ./translation-fetcher fetch
           ./translation-fetcher sync
-          find . -type f -name 'zh_cn.lang' -exec cp ./synced.lang {} +
+          if [ -f ./synced.lang ]; then
+            find . -type f -name 'zh_cn.lang' -exec cp ./synced.lang {} +
+          fi
       - name: create pull request
         uses: peter-evans/create-pull-request@v8.1.1
         with:
