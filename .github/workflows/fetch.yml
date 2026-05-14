@@ -1,37 +1,21 @@
-name: Fetch And Sync
+name: Fetch
 on: workflow_dispatch
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
       - name: checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
       - name: make fetcher executable
         run: chmod +x ./translation-fetcher
-      - name: fetch and sync
-        run: |
-          ./translation-fetcher fetch
-          ./translation-fetcher sync
-          if [ -f ./synced.lang ]; then
-            find . -type f -name 'zh_cn.lang' -exec cp ./synced.lang {} +
-          fi
-      - name: create pull request
-        uses: peter-evans/create-pull-request@v8.1.1
+      - name: fetch
+        run: ./translation-fetcher fetch
+      - name: commit changes and push
+        uses: EndBug/add-and-commit@v9
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "ci: fetch translations"
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          signoff: false
-          branch: fetch-patch
-          delete-branch: true
-          title: Fetch Translations
-          body: |
-            AutoFetch
-          assignees: gebardensprache
-          reviewers: gebardensprache
+          message: "fetcher: fetch"
+          default_author: github_actions
