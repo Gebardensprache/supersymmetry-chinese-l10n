@@ -1,4 +1,4 @@
-name: Fetch
+name: Fetch And Sync
 on: workflow_dispatch
 
 permissions:
@@ -9,13 +9,25 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: make fetcher executable
         run: chmod +x ./translation-fetcher
       - name: fetch
-        run: ./translation-fetcher fetch
-      - name: commit changes and push
-        uses: EndBug/add-and-commit@v9
+        run: |
+          ./translation-fetcher fetch
+          ./translation-fetcher sync
+      - name: create pull request
+        uses: peter-evans/create-pull-request@v8.1.1
         with:
-          message: "fetcher: fetch"
-          default_author: github_actions
+          token: ${{ secrets.TOKEN }}
+          commit-message: "ci: fetch translations"
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          signoff: false
+          branch: fetch-patch
+          delete-branch: true
+          title: Fetch Translations
+          body: |
+            AutoFetch
+          assignees: gebardensprache
+          reviewers: gebardensprache
