@@ -14,6 +14,6 @@ jobs:
       - name: capture build artifacts
         uses: actions/upload-artifact@v7
         with:
-          archive: true
+          archive: false
           path: |
             *.zip
