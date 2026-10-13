@@ -6,16 +6,16 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
-      - name: make fetcher executable
-        run: chmod +x ./translation-fetcher
+      - name: make app executable
+        run: chmod +x ./supersymmetry-chinese
       - name: fetch
-        run: ./translation-fetcher fetch
+        run: ./supersymmetry-chinese update
       - name: commit changes and push
         uses: EndBug/add-and-commit@v9
         with:
-          message: "fetcher: fetch"
+          message: "CI: update"
           default_author: github_actions
