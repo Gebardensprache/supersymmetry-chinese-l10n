@@ -1,3 +1,3 @@
 ### supersymmetry-chinese-l10n
 
-___Under GNU Affero GPL v3.0 and above.___
+___Under CC BY-NC-SA 4.0___
