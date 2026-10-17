@@ -3,21 +3,21 @@ tile.speaker.single.name=
 tile.speaker.broadcast.name=
 tile.goog.name=
 
-tile.cooling_coil.manganese_iron_arsenic_phosphide.name=
-tile.cooling_coil.praseodymium_nickel.name=
-tile.cooling_coil.gadolinium_silicon_germanium.name=
+tile.cooling_coil.manganese_iron_arsenic_phosphide.name=锰铁砷磷冷却线圈
+tile.cooling_coil.praseodymium_nickel.name=镨镍合金冷却线圈
+tile.cooling_coil.gadolinium_silicon_germanium.name=钆硅锗合金冷却线圈
 tile.cooling_coil.tooltip_temperature=
-tile.cooling_coil_active.manganese_iron_arsenic_phosphide.name=
-tile.cooling_coil_active.praseodymium_nickel.name=
-tile.cooling_coil_active.gadolinium_silicon_germanium.name=
-tile.cooling_coil_active_inverted.manganese_iron_arsenic_phosphide.name=
-tile.cooling_coil_active_inverted.praseodymium_nickel.name=
-tile.cooling_coil_active_inverted.gadolinium_silicon_germanium.name=
-tile.heating_coil.molybdenum_disilicide.name=
+tile.cooling_coil_active.manganese_iron_arsenic_phosphide.name=激活的锰铁砷磷冷却线圈（装饰）
+tile.cooling_coil_active.praseodymium_nickel.name=激活的镨镍合金冷却线圈（装饰）
+tile.cooling_coil_active.gadolinium_silicon_germanium.name=激活的钆硅锗合金冷却线圈（装饰）
+tile.cooling_coil_active_inverted.manganese_iron_arsenic_phosphide.name=反相激活的锰铁砷磷冷却线圈（装饰）
+tile.cooling_coil_active_inverted.praseodymium_nickel.name=反相激活的镨镍合金冷却线圈（装饰）
+tile.cooling_coil_active_inverted.gadolinium_silicon_germanium.name=反相激活的钆硅锗合金冷却线圈（装饰）
+tile.heating_coil.molybdenum_disilicide.name=二硅化钼线圈方块
 tile.heating_coil.tungsten.name=
-tile.heating_coil_active.molybdenum_disilicide.name=
+tile.heating_coil_active.molybdenum_disilicide.name=激活的二硅化钼线圈方块（装饰）
 tile.heating_coil_active.tungsten.name=
-tile.heating_coil_active_inverted.molybdenum_disilicide.name=
+tile.heating_coil_active_inverted.molybdenum_disilicide.name=反相激活的二硅化钼线圈方块（装饰）
 tile.heating_coil_active_inverted.tungsten.name=
 tile.wire_coil.tooltip_evaporation=
 tile.wire_coil.tooltip_energy_evaporating=
@@ -231,9 +231,9 @@ tile.conveyor_belt.lv.name=
 tile.drill_bit.steel.name=
 
 tile.induction_coil_assembly.copper.name=
-tile.eccentric_roll.steel.name=
-tile.eccentric_roll_active.steel.name=
-tile.eccentric_roll_active_inverted.steel.name=
+tile.eccentric_roll.steel.name=偏心破碎辊
+tile.eccentric_roll_active.steel.name=激活的偏心破碎辊（装饰）
+tile.eccentric_roll_active_inverted.steel.name=反相激活的偏心破碎辊（装饰）
 tile.grinder_casing.abrasion_resistant_casing.name=
 tile.grinder_casing.hydraulic_mechanical_gearbox.name=
 tile.grinder_casing.wear_resistant_lined_mill_shell.name=
@@ -245,9 +245,9 @@ tile.engine_casing.piston_block.name=
 
 tile.engine_casing_2.crankshaft.name=
 
-tile.active_casing.basic_intake_casing.name=
-tile.basic_intake_casing_active.basic_intake_casing.name=
-tile.basic_intake_casing_active_inverted.basic_intake_casing.name=
+tile.active_casing.basic_intake_casing.name=基础进气外壳
+tile.basic_intake_casing_active.basic_intake_casing.name=激活的基础进气外壳（装饰）
+tile.basic_intake_casing_active_inverted.basic_intake_casing.name=反相激活的基础进气外壳（装饰）
 
 tile.edm_electrode.copper_tungsten.name=
 
@@ -354,7 +354,7 @@ susy.material.aluminium_alloy_7075=铝合金-7075
 susy.material.aluminium_alloy_6061=铝合金-6061
 susy.material.aluminium_alloy_mg_6=
 susy.material.hot_softened_water=
-susy.material.molybdenum_disilicide=
+susy.material.molybdenum_disilicide=二硅化钼
 susy.material.metallized_bopet=
 
 # Rock/Mineral Materials
@@ -589,7 +589,7 @@ susy.machine.railroad_engineering_station.name=
 susy.machine.railroad_engineering_station.tooltip=在多方块结构的中心放置沉浸铁路的铁轨以使之成型
 susy.machine.railroad_engineering_station.tooltip.1=铁轨下的混凝土可以被包括管道和空气在内的任意方块替换
 susy.machine.quarry.name=
-susy.machine.eccentric_roll_crusher.name=
+susy.machine.eccentric_roll_crusher.name=偏心辊式破碎机
 susy.machine.eccentric_roll_crusher.tooltip=偏心并不意味着效率低下。
 susy.machine.ball_mill.name=
 susy.machine.ball_mill.tooltip=它们看着我在滚动。
@@ -1063,9 +1063,9 @@ susy.machine.screen_printer.uxv.name=
 susy.machine.screen_printer.opv.name=
 
 # Fluid Compressor
-susy.machine.fluid_compressor.jei.group=
-susy.machine.fluid_compressor.lv.name=
-susy.machine.fluid_compressor.mv.name=
+susy.machine.fluid_compressor.jei.group=流体加压机
+susy.machine.fluid_compressor.lv.name=基础流体加压机
+susy.machine.fluid_compressor.mv.name=进阶流体加压机
 susy.machine.fluid_compressor.hv.name=
 susy.machine.fluid_compressor.ev.name=
 susy.machine.fluid_compressor.iv.name=
@@ -1469,7 +1469,7 @@ recipemap.boiler.name=
 recipemap.fuel_cell.name=
 recipemap.induction_furnace.name=
 recipemap.resistance_furnace.name=
-recipemap.eccentric_roll_crusher.name=
+recipemap.eccentric_roll_crusher.name=偏心辊式破碎
 recipemap.ball_mill.name=
 recipemap.atomic_layer_deposition.name=
 recipemap.wire_bonding.name=
@@ -1913,15 +1913,15 @@ supersymmetry.subtitle.2=维生系统：稳定。着陆舱燃料：46%%。
 
 # Locked Crates
 chat.susy.crate.requires_code_breacher=这个板条箱需要一个破译器！
-chat.susy.crate.unlocked=
+chat.susy.crate.unlocked=板条箱已解锁！
 susy.machine.locked_crate.pe.name=
-susy.machine.locked_crate.wood.name=
-susy.machine.locked_crate.bronze.name=
-susy.machine.locked_crate.steel.name=
-susy.machine.locked_crate.aluminium.name=
-susy.machine.locked_crate.stainless_steel.name=
-susy.machine.locked_crate.titanium.name=
-susy.machine.locked_crate.tungstensteel.name=
+susy.machine.locked_crate.wood.name=上锁的木板条箱
+susy.machine.locked_crate.bronze.name=上锁的青铜板条箱
+susy.machine.locked_crate.steel.name=上锁的钢板条箱
+susy.machine.locked_crate.aluminium.name=上锁的铝板条箱
+susy.machine.locked_crate.stainless_steel.name=上锁的不锈钢板条箱
+susy.machine.locked_crate.titanium.name=上锁的钛板条箱
+susy.machine.locked_crate.tungstensteel.name=上锁的钨钢板条箱
 
 
 susy.machine.drone_deposit_basket.name=
