@@ -1915,13 +1915,13 @@ supersymmetry.subtitle.2=维生系统：稳定。着陆舱燃料：46%%。
 chat.susy.crate.requires_code_breacher=这个板条箱需要一个破译器！
 chat.susy.crate.unlocked=板条箱已解锁！
 susy.machine.locked_crate.pe.name=
-susy.machine.locked_crate.wood.name=上锁的木板条箱
-susy.machine.locked_crate.bronze.name=上锁的青铜板条箱
-susy.machine.locked_crate.steel.name=上锁的钢板条箱
-susy.machine.locked_crate.aluminium.name=上锁的铝板条箱
-susy.machine.locked_crate.stainless_steel.name=上锁的不锈钢板条箱
-susy.machine.locked_crate.titanium.name=上锁的钛板条箱
-susy.machine.locked_crate.tungstensteel.name=上锁的钨钢板条箱
+susy.machine.locked_crate.wood.name=木板条箱（已上锁）
+susy.machine.locked_crate.bronze.name=青铜板条箱（已上锁）
+susy.machine.locked_crate.steel.name=钢板条箱（已上锁）
+susy.machine.locked_crate.aluminium.name=铝板条箱（已上锁）
+susy.machine.locked_crate.stainless_steel.name=不锈钢板条箱（已上锁）
+susy.machine.locked_crate.titanium.name=钛板条箱（已上锁）
+susy.machine.locked_crate.tungstensteel.name=钨钢板条箱（已上锁）
 
 
 susy.machine.drone_deposit_basket.name=
